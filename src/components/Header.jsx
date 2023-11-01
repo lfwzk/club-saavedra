@@ -3,7 +3,7 @@ import img from "../../public/favicon.ico";
 
 const Navbar = () => {
   return (
-    <div className="  navbar bg-black  ">
+    <div className="  navbar bg-[#D53443] text-white ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,34 +27,36 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Sobre nosotros</a>
+              <a href="/escuela">ESCUELA DE FÚTBOL</a>
             </li>
 
             <li>
-              <a>Escuela</a>
+              <a href="/historia">HISTORIA</a>
+            </li>
+            <li>
+              <a href="/club">CLUB</a>
             </li>
           </ul>
         </div>
         <a className="btn btn-ghost normal-case text-xl" href="/">
           <img src={img} className="w-10 h-10" />
-          Club Saavedra
         </a>
       </div>
-      <div className="navbar-center hidden lg:flex">
+
+      <div className="navbar-end hidden lg:flex ">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a>Sobre nosotros</a>
+            <a href="/escuela">ESCUELA DE FÚTBOL</a>
           </li>
 
           <li>
-            <a>Escuelas </a>
+            <a href="/historia"> HISTORIA </a>
           </li>
           <li>
-            <a> Club </a>
+            <a href="/club"> CLUB </a>
           </li>
         </ul>
       </div>
-      <div className="navbar-end"></div>
     </div>
   );
 };

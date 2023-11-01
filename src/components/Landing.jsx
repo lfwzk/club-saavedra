@@ -13,12 +13,11 @@ export const Landing = () => {
     <>
       <Header />
 
-      <main className="bg-virtus  text white">
+      <main className="bg-[#D53443]  text white">
         <FloatingWhatsApp
-          phoneNumber="77558878"
+          phoneNumber="+591 68031828"
           accountName="Club Saavedra"
           avatar={logo}
-          darkMode={true}
           chatMessage="bienvenido en que puedo ayudarte"
           allowClickAway={true}
           allowEsc={true}
