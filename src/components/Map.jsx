@@ -1,4 +1,3 @@
-import Iframe from "react-iframe";
 import img1 from "../assets/ef-01.jpeg";
 import img2 from "../assets/pb-01.jpeg";
 import img3 from "../assets/club.jpeg";
@@ -54,7 +53,7 @@ const Mapview = () => {
                     />
                     <div className="mt-3">
                       <h3 className="font-medium text-white group-hover:underline group-hover:underline-offset-4">
-                        Primera B
+                        Club Saavedra
                       </h3>
                     </div>
                   </a>
